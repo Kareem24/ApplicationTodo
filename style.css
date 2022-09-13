@@ -6,7 +6,8 @@
 }
 h1{
     background: linear-gradient(247deg ,#1f2f98,#4adede);
-    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
     font-size: 3rem;
     margin: 50px;
